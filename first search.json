@@ -1,0 +1,328 @@
+{
+    "items": [
+        {
+            "content": {
+                "title": {
+                    "simpleText": "How Our Classes Work - Learn to Code with Minecraft"
+                },
+                "descriptionText": {
+                    "simpleText": "Our founder, Michelle, teaches at MIT! Book your trial class with us today. Professional instructors, flexible timing, and professional curriculum. Immersive Classes. MIT Master Trainers. Structured Curriculum. Highlights: Chat Option Available, Providing Professional Curriculum, Trial Class Booking Available."
+                },
+                "websiteText": {
+                    "runs": [
+                        {
+                            "text": "www.firstcodeacademy.com/",
+                            "textColor": 4278607828
+                        }
+                    ]
+                },
+                "navigationEndpoint": {
+                    "clickTrackingParams": "CKACEKreAhgAIhMIlOO9toni7gIVlvs4Bh2kUw06",
+                    "commandMetadata": {
+                        "webCommandMetadata": {
+                            "url": "https://www.google.com/aclk?sa=l&ai=CjOBrV0MlYL79KZ372gTj8oaYDejblqlhm56W4fwM5-HTmtMICAAQASC7m7pOYMurgIWYF6ABmYiryAPIAQGpAmbBwYTiT4E-qgRLT9BjRfMWKvLDclKRqQKCVPiWdoeAN2UvYasRHAyvCCs9fPVLWqftU_DYgZonE9Hq65qKWbCIw46ykuT5WllB35_2x3qoKuDlPkQSwATG9_6BqgOgBmaAB8_31DeQBwGoB6a-G6gHuZqxAqgH8NkbqAfy2RuoB_PRG6gH7tIbqAfK3BuwCAXSCAYQASCkgQKxCe-cM2_qm2FnuQnvnDNv6pthZ_gJAZgLAbgMAYgUAsgU9pe-rYa80_ds0BUBgBcB&sig=AOD64_2-J99m_fkbH0ygGV4CREvMpLmjUQ&adurl=https://www.firstcodeacademy.com/how-it-works&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=[NB]",
+                            "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                            "rootVe": 83769
+                        }
+                    },
+                    "urlEndpoint": {
+                        "url": "https://www.google.com/aclk?sa=l&ai=CjOBrV0MlYL79KZ372gTj8oaYDejblqlhm56W4fwM5-HTmtMICAAQASC7m7pOYMurgIWYF6ABmYiryAPIAQGpAmbBwYTiT4E-qgRLT9BjRfMWKvLDclKRqQKCVPiWdoeAN2UvYasRHAyvCCs9fPVLWqftU_DYgZonE9Hq65qKWbCIw46ykuT5WllB35_2x3qoKuDlPkQSwATG9_6BqgOgBmaAB8_31DeQBwGoB6a-G6gHuZqxAqgH8NkbqAfy2RuoB_PRG6gH7tIbqAfK3BuwCAXSCAYQASCkgQKxCe-cM2_qm2FnuQnvnDNv6pthZ_gJAZgLAbgMAYgUAsgU9pe-rYa80_ds0BUBgBcB&sig=AOD64_2-J99m_fkbH0ygGV4CREvMpLmjUQ&adurl=https://www.firstcodeacademy.com/how-it-works&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=[NB]",
+                        "target": "TARGET_NEW_WINDOW"
+                    }
+                },
+                "impressionEndpoints": [
+                    {
+                        "clickTrackingParams": "CKACEKreAhgAIhMIlOO9toni7gIVlvs4Bh2kUw06",
+                        "loggingUrls": [
+                            {
+                                "baseUrl": "https://www.youtube.com/pagead/paralleladview?ai=CQxnbV0MlYOb9JJ2VmsMPl_el0AgAm56W4fwMABABIABgywOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MagDBKoEF0_QasfFzRz2ML03hADFZXjbAMZAM0QE0ggCEAGwCwG6CxsIAxADGAwgCygFMAVAAUgAWBxgAGgAcAGIAQCgFwE&sigh=sEx8fjoeUxI&cid=CAASFeRo2KsgAtHlLbmGWUAcwzKkUWpemQ&vt=0"
+                            }
+                        ],
+                        "pingingEndpoint": {
+                            "hack": true
+                        }
+                    }
+                ],
+                "closeButton": {
+                    "menuRenderer": {
+                        "items": [
+                            {
+                                "menuNavigationItemRenderer": {
+                                    "text": {
+                                        "runs": [
+                                            {
+                                                "text": "Why this ad?"
+                                            }
+                                        ]
+                                    },
+                                    "navigationEndpoint": {
+                                        "clickTrackingParams": "CKACEKreAhgAIhMIlOO9toni7gIVlvs4Bh2kUw06",
+                                        "commandMetadata": {
+                                            "webCommandMetadata": {
+                                                "ignoreNavigation": true
+                                            }
+                                        },
+                                        "adInfoDialogEndpoint": {
+                                            "dialog": {
+                                                "adInfoDialogRenderer": {
+                                                    "dialogMessage": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "Visit Google's "
+                                                            },
+                                                            {
+                                                                "text": "Ad Settings",
+                                                                "navigationEndpoint": {
+                                                                    "clickTrackingParams": "CKICEPWrAiITCJTjvbaJ4u4CFZb7OAYdpFMNOg==",
+                                                                    "commandMetadata": {
+                                                                        "webCommandMetadata": {
+                                                                            "url": "https://adssettings.google.com/",
+                                                                            "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                                                            "rootVe": 83769
+                                                                        }
+                                                                    },
+                                                                    "urlEndpoint": {
+                                                                        "url": "https://adssettings.google.com",
+                                                                        "target": "TARGET_NEW_WINDOW"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "text": " to learn more about how ads are targeted or to opt out of personalized ads."
+                                                            }
+                                                        ]
+                                                    },
+                                                    "confirmLabel": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "Close"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "trackingParams": "CKICEPWrAiITCJTjvbaJ4u4CFZb7OAYdpFMNOg==",
+                                                    "title": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "This ad is based on:"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "adReasons": [
+                                                        {
+                                                            "simpleText": "Your current search terms."
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "trackingParams": "CKACEKreAhgAIhMIlOO9toni7gIVlvs4Bh2kUw06"
+                                }
+                            },
+                            {
+                                "menuNavigationItemRenderer": {
+                                    "text": {
+                                        "runs": [
+                                            {
+                                                "text": "Control your Google ads"
+                                            }
+                                        ]
+                                    },
+                                    "icon": {
+                                        "iconType": "SETTINGS"
+                                    },
+                                    "navigationEndpoint": {
+                                        "clickTrackingParams": "CKACEKreAhgAIhMIlOO9toni7gIVlvs4Bh2kUw06",
+                                        "commandMetadata": {
+                                            "webCommandMetadata": {
+                                                "url": "https://adssettings.google.com/",
+                                                "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                                "rootVe": 83769
+                                            }
+                                        },
+                                        "urlEndpoint": {
+                                            "url": "https://adssettings.google.com",
+                                            "target": "TARGET_NEW_WINDOW"
+                                        }
+                                    },
+                                    "trackingParams": "CKACEKreAhgAIhMIlOO9toni7gIVlvs4Bh2kUw06"
+                                }
+                            }
+                        ],
+                        "trackingParams": "CKACEKreAhgAIhMIlOO9toni7gIVlvs4Bh2kUw06",
+                        "accessibility": {
+                            "accessibilityData": {
+                                "label": "Action menu"
+                            }
+                        }
+                    }
+                },
+                "clickTargetDelayMs": "0",
+                "borderInfo": {
+                    "left": {
+                        "flat": 0,
+                        "percentage": 0.0099999998
+                    },
+                    "right": {
+                        "flat": 0,
+                        "percentage": 0.0099999998
+                    },
+                    "top": {
+                        "flat": 0,
+                        "percentage": 0.0099999998
+                    },
+                    "bottom": {
+                        "flat": 0,
+                        "percentage": 0.0099999998
+                    }
+                },
+                "ctaButton": {
+                    "buttonRenderer": {
+                        "style": "STYLE_SUGGESTIVE",
+                        "text": {
+                            "simpleText": "VISIT SITE"
+                        },
+                        "icon": {
+                            "iconType": "EXTERNAL_LINK"
+                        },
+                        "navigationEndpoint": {
+                            "clickTrackingParams": "CKECEPBbIhMIlOO9toni7gIVlvs4Bh2kUw06",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "https://www.google.com/aclk?sa=l&ai=CjOBrV0MlYL79KZ372gTj8oaYDejblqlhm56W4fwM5-HTmtMICAAQASC7m7pOYMurgIWYF6ABmYiryAPIAQGpAmbBwYTiT4E-qgRLT9BjRfMWKvLDclKRqQKCVPiWdoeAN2UvYasRHAyvCCs9fPVLWqftU_DYgZonE9Hq65qKWbCIw46ykuT5WllB35_2x3qoKuDlPkQSwATG9_6BqgOgBmaAB8_31DeQBwGoB6a-G6gHuZqxAqgH8NkbqAfy2RuoB_PRG6gH7tIbqAfK3BuwCAXSCAYQASCkgQKxCe-cM2_qm2FnuQnvnDNv6pthZ_gJAZgLAbgMAYgUAsgU9pe-rYa80_ds0BUBgBcB&sig=AOD64_2-J99m_fkbH0ygGV4CREvMpLmjUQ&adurl=https://www.firstcodeacademy.com/how-it-works&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=[NB]",
+                                    "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                    "rootVe": 83769
+                                }
+                            },
+                            "urlEndpoint": {
+                                "url": "https://www.google.com/aclk?sa=l&ai=CjOBrV0MlYL79KZ372gTj8oaYDejblqlhm56W4fwM5-HTmtMICAAQASC7m7pOYMurgIWYF6ABmYiryAPIAQGpAmbBwYTiT4E-qgRLT9BjRfMWKvLDclKRqQKCVPiWdoeAN2UvYasRHAyvCCs9fPVLWqftU_DYgZonE9Hq65qKWbCIw46ykuT5WllB35_2x3qoKuDlPkQSwATG9_6BqgOgBmaAB8_31DeQBwGoB6a-G6gHuZqxAqgH8NkbqAfy2RuoB_PRG6gH7tIbqAfK3BuwCAXSCAYQASCkgQKxCe-cM2_qm2FnuQnvnDNv6pthZ_gJAZgLAbgMAYgUAsgU9pe-rYa80_ds0BUBgBcB&sig=AOD64_2-J99m_fkbH0ygGV4CREvMpLmjUQ&adurl=https://www.firstcodeacademy.com/how-it-works&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=[NB]",
+                                "target": "TARGET_NEW_WINDOW"
+                            }
+                        },
+                        "trackingParams": "CKECEPBbIhMIlOO9toni7gIVlvs4Bh2kUw06",
+                        "iconPosition": "BUTTON_ICON_POSITION_TYPE_RIGHT_OF_TEXT"
+                    }
+                }
+            },
+            "clickLocationTargets": [
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_TITLE",
+                    "code": 0,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_AD_BADGE",
+                    "code": 31,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_THUMBNAIL",
+                    "code": 9,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_DESCRIPTION",
+                    "code": 7,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_ACTION_LABEL",
+                    "code": 8,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_BACKGROUND",
+                    "code": 2,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_NOOP"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_BORDER",
+                    "code": 39,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_NOOP"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_INNER_BACKGROUND",
+                    "code": 41,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_NOOP"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_AD_WEBSITE",
+                    "code": 1,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_CTD_AD_RATING",
+                    "code": 16,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_CTD_AD_PRICE",
+                    "code": 15,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_CTD_AD_APP_STORE",
+                    "code": 35,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_PRODUCT_ADVERTISER",
+                    "code": 20,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_PRODUCT_PRICE",
+                    "code": 15,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_CUSTOM_BADGE",
+                    "code": 43,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_TITLE",
+                    "code": 46,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_THUMBNAIL",
+                    "code": 44,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_ACTION_LABEL",
+                    "code": 45,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_BACKGROUND",
+                    "code": 47,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_NOOP"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_ADVERTISER_AD_ICON",
+                    "code": 19,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_TALKBACK_ACTIVATED",
+                    "code": 17,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_ACTION_LABEL_TALKBACK_ACTIVATED",
+                    "code": 8,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                },
+                {
+                    "location": "PROMOTED_SPARKLES_CLICK_LOCATION_SITELINK",
+                    "code": 6,
+                    "behaviorType": "PROMOTED_SPARKLES_CLICK_BEHAVIOR_TYPE_OPEN_AD"
+                }
+            ],
+            "trackingParams": "CKACEKreAhgAIhMIlOO9toni7gIVlvs4Bh2kUw06"
+        }
+    ],
+    "continuation_token": "EqQDEgltaW5lY3JhZnQa-AJTQlNDQVF0cU5tUjBWWEJoZURablVZSUJDeTFKWDNnM2IyZGpjVE00Z2dFTFMxZGthMFl6TTFaNWJIT0NBUXRoT0dSek5sTnVUMGR2ZDRJQkMyaG5WbGROTlRSQk5tSk5nZ0VMVjFGUlEzQklUM1EwTVZXQ0FRdG1aVlUxYWxscVl5MVVRWUlCQ3kxc1FqSmFSek5RTldwbmdnRUxNV2RsUVZoa01tMU1aRTJDQVF0bFQzVm9TRk55ZVhCVVJZSUJDMkk0ZUMxWk5VVm1SakJ2Z2dFTGJEQjVSVVl3Um5OU1RtT0NBUXRKTlZKb1dEQTJUbGwyVVlJQkMzUndaMjVqZFZST2NrWlpnZ0VMTjJkTVpDMXlUMUV4UzBHQ0FRdGlkSGxUYVc1bU16ZHdPSUlCQzJRNWFUWjJNVnAwU0VnMGdnRUxNRUZ5TkUxTWJrMVFhR09DQVFzelRIbEhPVTlGUkdFdGI0SUJDMHRRUzE5NU5UZ3hZWFZCygEbGhdodHRwczovL3d3dy55b3V0dWJlLmNvbSIAGIHg6BgiC3NlYXJjaC1mZWVk"
+}
