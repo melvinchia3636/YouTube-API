@@ -124,7 +124,7 @@ class youtubeSearchAPI(requests.Session):
 			'url': data["navigationEndpoint"]["commandMetadata"]["webCommandMetadata"]["url"],
 			'name': data['title']['simpleText'],
 			'description': ''.join(i['text'] for i in data["descriptionSnippet"]['runs']) if "descriptionSnippet" in data else None,
-			'video_count': int(data["videoCountText"]['runs'][0]['text'].split()[0].replace(',', '')),
+			'video_count': int(data["videoCountText"]['runs'][0]['text'].split()[0].replace(',', '')) if "videoCountText" in data else None,
 			'subscriber_count': (int(data["subscriberCountText"]["simpleText"].split()[0]) if data["subscriberCountText"]["simpleText"].split()[0].isdigit() else data["subscriberCountText"]["simpleText"].split()[0]) if "subscriberCountText" in data else None,
 			'thumbnails': data['thumbnail']['thumbnails']
 		}
@@ -156,11 +156,25 @@ class youtubeSearchAPI(requests.Session):
 			'title': title,
 			'cards': self.cleanupData(data['cards'])
 		}
+	
+	def parseBackgroundPromo(self, data):
+		return {
+			'type': 'background_promo',
+			'title': ''.join(i['text'] for i in data['title']['runs']),
+			'content': ''.join(i['text'] for i in data['bodyText']['runs'])
+		}
+
+	def parseMessage(self, data):
+		return {
+			'type': 'message',
+			'text': ''.join(i['text'] for i in data['text']['runs'])
+		}
 
 	def cleanupData(self, data):
 		result = []
 		for i in data:
-			typeOfRenderer = list(i.keys())[0]
+			try: typeOfRenderer = list(i.keys())[0]
+			except: print(data); raise
 			each = i[typeOfRenderer]
 			eachFinal = i
 			try: typeOfRenderer = 'liveStreamRenderer' if each["badges"][0]["metadataBadgeRenderer"]["label"] == "LIVE NOW" else typeOfRenderer
@@ -181,11 +195,20 @@ class youtubeSearchAPI(requests.Session):
 				eachFinal = self.parseHorizontalCardList(each)
 			elif typeOfRenderer == "searchRefinementCardRenderer":
 				eachFinal = self.parseSearchRefinementCard(each)
+			elif typeOfRenderer == "richItemRenderer":
+				eachFinal = self.cleanupData([each['content']])[0]
+			elif typeOfRenderer == 'backgroundPromoRenderer':
+				eachFinal = self.parseBackgroundPromo(each)
+			elif typeOfRenderer == 'messageRenderer':
+				eachFinal = self.parseMessage(each)
+			elif typeOfRenderer == "continuationItemRenderer":
+				continue
 			result.append(eachFinal)
 		return result
 
 	def getStatics(self, result):
-		return dict(Counter(list(map(lambda i: i['type'], result))))
+		try: return dict(Counter(list(map(lambda i: i['type'], result))))
+		except: print(json.dumps(result))
 
 	def search(self, query):
 		html = self.get('https://www.youtube.com/results?reload=9&search_query='+'+'.join(query.split())).text
@@ -210,7 +233,8 @@ class youtubeSearchAPI(requests.Session):
 		try: nextCT = next(self.searchDict(response, 'token'))
 		except: nextCT = None
 		result['continuation_token'] = nextCT
-		data = next(self.searchDict(response, "contents"))
+		try: data = next(self.searchDict(response, "contents"))
+		except: data = next(self.searchDict(response, "continuationItems"))
 		result['items'] = self.cleanupData(data)
 		result['statics'] = self.getStatics(result['items'])
 		if not result: print(response)
@@ -218,9 +242,10 @@ class youtubeSearchAPI(requests.Session):
 
 if __name__ == '__main__':
 	api = youtubeSearchAPI()
-	result = [api.search('ed sheeran photograph')]
-	for i in range(10):
+	result = [api.search('红月')]
+	for i in range(100):
 		continuation = result[-1]['continuation_token']
+		if not continuation: break
 		result.append(api.searchWithContinuation(continuation))
 		print(i)
-	json.dump(result, open('example', 'w'), indent=4)
+	json.dump(result, open('example.json', 'w'), indent=4)
