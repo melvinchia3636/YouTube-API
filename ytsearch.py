@@ -170,6 +170,14 @@ class youtubeSearchAPI(requests.Session):
 			'text': ''.join(i['text'] for i in data['text']['runs'])
 		}
 
+	def parsePromotedSparklesTextSearch(self, data):
+		return {
+			'type': 'promotion',
+			'title': data['title']['simpleText'],
+			'description': data["descriptionText"]['simpleText'],
+			'website': ''.join(i['text'] for i in data["websiteText"]['runs'])
+		}
+
 	def cleanupData(self, data):
 		result = []
 		for i in data:
@@ -203,6 +211,8 @@ class youtubeSearchAPI(requests.Session):
 				eachFinal = self.parseMessage(each)
 			elif typeOfRenderer == "continuationItemRenderer":
 				continue
+			elif typeOfRenderer == "promotedSparklesTextSearchRenderer":
+				eachFinal = self.parsePromotedSparklesTextSearch(each['content'])
 			result.append(eachFinal)
 		return result
 
@@ -242,7 +252,7 @@ class youtubeSearchAPI(requests.Session):
 
 if __name__ == '__main__':
 	api = youtubeSearchAPI()
-	result = [api.search('红月')]
+	result = [api.search('python tutorial')]
 	for i in range(100):
 		continuation = result[-1]['continuation_token']
 		if not continuation: break
