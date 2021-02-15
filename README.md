@@ -1,2 +1,2 @@
-# YouTube-Search-API
-An easy-to-use YouTube Search API
+# YouTube-API
+An easy-to-use YouTube API
