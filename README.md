@@ -18,6 +18,7 @@ api.search(query=None, continuation_token=None)
 **continuation_token**: a token for continuing the search. You will find it at the very end of every search result JSON.
 
 ### Playlist
+Returns a collection of items and metadata of playlists that match the API request parameters.
 ```python
 api.playlist(playlistId=None, continuation_token=None, parseAll=True)
 ```
@@ -26,6 +27,7 @@ api.playlist(playlistId=None, continuation_token=None, parseAll=True)
 ***parseAll***: Parse all items in the playlist. Default set to True.
 
 ### Channel (working)
+Returns a collection data of channel resources that match the request criteria.
 ```python
 api.channel(channelId=None, username=None)
 ```
