@@ -1,5 +1,5 @@
 # YouTube-API
-An easy-to-use YouTube API, without any kind of quota.
+An easy-to-use YouTube API, without any kind of quota. I'm still working on it, so stay tuned for the updates to come.
 
 ## Documentation
 
