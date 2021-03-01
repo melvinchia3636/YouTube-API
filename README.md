@@ -22,7 +22,7 @@ Returns a collection of items and metadata of playlists that match the API reque
 ```python
 api.playlist(playlistId=None, continuation_token=None, parseAll=True)
 ```
-**playlistId**: The ID of playlist you want. You can find it at the url of the playlist page. https://www.youtube.com/playlist?list=[Playlist_ID] <br />
+**playlistId**: The ID of playlist you want. You can find it at the url of the playlist page. <br />
 **continuation_token**: a token for continuing the search. You will find it at the very end of search result JSON if ```parseAll=False.``` <br />
 ***parseAll***: Parse all items in the playlist. Default set to True.
 
