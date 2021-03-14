@@ -50,7 +50,15 @@ api.video(videoId)
 video = api.video(videoId)
 video.download(itag=None, path=".", log_progress=True, chunk_size=4096, callback_func=None)
 ```
-**itag**: The itag of the video you want to download. Download the best quality if not specified.
-**path**: Destination path of your choice. Downloaded videos will go there.
-**log_progress**: Wether to show download progressbar or not. Default to True.
+**itag**: The itag of the video you want to download. Download the best quality if not specified. <br />
+**path**: Destination path of your choice. Downloaded videos will go there. <br />
+**log_progress**: Wether to show download progressbar or not. Default to True. <br />
 **callback_func**: Feature under development
+
+## Version
+
+### 0.1.0
+- Freshly uploaded this package to PyPi
+
+### 0.1.1
+- Updated README.md
