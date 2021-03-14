@@ -65,5 +65,5 @@ video.download(itag=None, path=".", log_progress=True, chunk_size=4096, callback
 ### 0.0.2
 - Freshly uploaded this package to PyPi
 
-### 0.0.3
+### 0.0.3/0.0.4/0.0.5
 - Updated README.md
