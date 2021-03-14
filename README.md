@@ -5,7 +5,9 @@ I'm still working on it, so stay tuned for more updates to come.
 ## Documentation
 
 ### Installing the API
-```pip install youtube-scraping-api```
+```sh
+pip install youtube-scraping-api
+```
 
 ### Importing the API
 ```python
