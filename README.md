@@ -57,7 +57,7 @@ video.download(itag=None, path=".", log_progress=True, chunk_size=4096, callback
 
 ## Version
 
-### 0.0.1 (DELETED)
+### 0.0.1 (deleted)
 - Not an official release (careless bug found)
 
 ### 0.0.2
