@@ -1,11 +1,15 @@
-# YouTube-API
-An easy-to-use YouTube API, without any kind of quota. I'm still working on it, so stay tuned for the updates to come.
+# YouTube-Scraping-API
+An easy-to-use YouTube API, without any kind of quota, and download any videos on youtube as much as you like. <br />
+I'm still working on it, so stay tuned for more updates to come.
 
 ## Documentation
 
-### Importing The API
+### Installing the API
+```pip install youtube-scraping-api```
+
+### Importing the API
 ```python
-from YouTubeAPI import YouTubeAPI
+from youtube_scraping_api import YouTubeAPI
 api = YouTubeAPI()
 ```
 
@@ -31,5 +35,22 @@ Returns a collection data of channel resources that match the request criteria.
 ```python
 api.channel(channelId=None, username=None)
 ```
-**channelId**: The ID of channel. <br />
-**username**: The username of channel user. <br />
+**channelId**: ID of the channel. <br />
+**username**: username of the channel user. <br />
+
+### Video
+Returns data of the video that matches the video ID.
+```python
+api.video(videoId)
+```
+**videoId**: The ID of the videos
+
+### Download Video
+```python
+video = api.video(videoId)
+video.download(itag=None, path=".", log_progress=True, chunk_size=4096, callback_func=None)
+```
+**itag**: The itag of the video you want to download. Download the best quality if not specified.
+**path**: Destination path of your choice. Downloaded videos will go there.
+**log_progress**: Wether to show download progressbar or not. Default to True.
+**callback_func**: Feature under development
