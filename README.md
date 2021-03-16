@@ -20,42 +20,58 @@ Returns a collection of search results that match the query parameters specified
 ```python
 api.search(query=None, continuation_token=None)
 ```
-**query**: The query string of your search <br />
-**continuation_token**: a token for continuing the search. You will find it at the very end of every search result JSON.
 
 ### Playlist
 Returns a collection of items and metadata of playlists that match the API request parameters.
 ```python
 api.playlist(playlistId=None, continuation_token=None, parseAll=True)
 ```
-**playlistId**: The ID of playlist you want. You can find it at the url of the playlist page. <br />
-**continuation_token**: a token for continuing the search. You will find it at the very end of search result JSON if ```parseAll=False.``` <br />
-***parseAll***: Parse all items in the playlist. Default set to True.
 
 ### Channel (working)
 Returns a collection data of channel resources that match the request criteria.
 ```python
 api.channel(channelId=None, username=None)
 ```
-**channelId**: ID of the channel. <br />
-**username**: username of the channel user. <br />
 
 ### Video
-Returns data of the video that matches the video ID.
+Parse the data of the video that matches the video ID.
 ```python
-api.video(videoId)
+video = api.video(videoId)
+
+#get the data of the video
+video.get_json()
 ```
-**videoId**: The ID of the videos
 
 ### Download Video
+Download the video with whatever resolution you want up to 720p.
 ```python
 video = api.video(videoId)
 video.download(itag=None, path=".", log_progress=True, chunk_size=4096, callback_func=None)
 ```
-**itag**: The itag of the video you want to download. Download the best quality if not specified. <br />
-**path**: Destination path of your choice. Downloaded videos will go there. <br />
-**log_progress**: Wether to show download progressbar or not. Default to True. <br />
-**callback_func**: Feature under development
+
+### Captions
+Parse captions available for the video
+```python
+video = api.video(videoId)
+
+#query containing every available captions of the video
+captions = video.captions
+
+#return the caption that matches the language code. Return default language if language code isn't provided
+caption = captions.get_caption(language_code='en')
+
+#return all available translation languages if the caption is translatable
+available_translation_language = caption.available_translations
+
+#return the translation of the caption if it's translatable
+translated_caption = caption.translate_to('zh-Hant')
+
+#return the caption in string format
+caption.string
+
+#return the caption in dictionary format with starting time and duration of each text snippet
+caption.dict
+```
 
 ## Version
 
@@ -67,3 +83,7 @@ video.download(itag=None, path=".", log_progress=True, chunk_size=4096, callback
 
 ### 0.0.3/0.0.4/0.0.5
 - Updated README.md
+
+
+### 0.1.0
+- Video caption feature added
