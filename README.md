@@ -87,3 +87,6 @@ caption.dict
 
 ### 0.1.0
 - Video caption feature added
+
+### 0.1.1
+- Updated README.md
