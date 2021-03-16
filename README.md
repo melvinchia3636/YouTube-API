@@ -50,7 +50,7 @@ video.download(itag=None, path=".", log_progress=True, chunk_size=4096, callback
 ```
 
 ### Captions
-Parse captions available for the video
+Parse captions available for the video.
 ```python
 video = api.video(videoId)
 
